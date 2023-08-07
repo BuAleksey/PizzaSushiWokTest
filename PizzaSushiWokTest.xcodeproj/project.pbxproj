@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		87608E442A7ECEA0004DB91B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87608E432A7ECEA0004DB91B /* AppDelegate.swift */; };
 		87608E462A7ECEA0004DB91B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87608E452A7ECEA0004DB91B /* SceneDelegate.swift */; };
-		87608E482A7ECEA0004DB91B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87608E472A7ECEA0004DB91B /* ViewController.swift */; };
 		87608E4B2A7ECEA0004DB91B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87608E492A7ECEA0004DB91B /* Main.storyboard */; };
 		87608E4D2A7ECEA1004DB91B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87608E4C2A7ECEA1004DB91B /* Assets.xcassets */; };
 		87608E502A7ECEA1004DB91B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87608E4E2A7ECEA1004DB91B /* LaunchScreen.storyboard */; };
+		87608E582A7ECF12004DB91B /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87608E572A7ECF12004DB91B /* MainTableViewController.swift */; };
+		87608E5A2A7ECF51004DB91B /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87608E592A7ECF51004DB91B /* DataStore.swift */; };
+		87608E5C2A7ECF8A004DB91B /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87608E5B2A7ECF8A004DB91B /* Car.swift */; };
+		87608E602A7EECBD004DB91B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87608E5F2A7EECBD004DB91B /* DetailViewController.swift */; };
+		87608E622A7EF660004DB91B /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87608E612A7EF660004DB91B /* EditViewController.swift */; };
+		87608E642A7EFB60004DB91B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87608E632A7EFB60004DB91B /* DataManager.swift */; };
+		87608E662A7F1430004DB91B /* AddNewCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87608E652A7F1430004DB91B /* AddNewCarViewController.swift */; };
+		877019402A7FB5B1001D5202 /* FilterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770193F2A7FB5B1001D5202 /* FilterTableViewController.swift */; };
+		87BC43312A80C708006DE9D5 /* Healper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BC43302A80C708006DE9D5 /* Healper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		87608E402A7ECEA0004DB91B /* PizzaSushiWokTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaSushiWokTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87608E432A7ECEA0004DB91B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87608E452A7ECEA0004DB91B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		87608E472A7ECEA0004DB91B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		87608E4A2A7ECEA0004DB91B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87608E4C2A7ECEA1004DB91B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87608E4F2A7ECEA1004DB91B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87608E512A7ECEA1004DB91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87608E572A7ECF12004DB91B /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		87608E592A7ECF51004DB91B /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		87608E5B2A7ECF8A004DB91B /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		87608E5F2A7EECBD004DB91B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		87608E612A7EF660004DB91B /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		87608E632A7EFB60004DB91B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		87608E652A7F1430004DB91B /* AddNewCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCarViewController.swift; sourceTree = "<group>"; };
+		8770193F2A7FB5B1001D5202 /* FilterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableViewController.swift; sourceTree = "<group>"; };
+		87BC43302A80C708006DE9D5 /* Healper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Healper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +74,15 @@
 			children = (
 				87608E432A7ECEA0004DB91B /* AppDelegate.swift */,
 				87608E452A7ECEA0004DB91B /* SceneDelegate.swift */,
-				87608E472A7ECEA0004DB91B /* ViewController.swift */,
+				87608E572A7ECF12004DB91B /* MainTableViewController.swift */,
+				8770193F2A7FB5B1001D5202 /* FilterTableViewController.swift */,
+				87608E652A7F1430004DB91B /* AddNewCarViewController.swift */,
+				87608E5F2A7EECBD004DB91B /* DetailViewController.swift */,
+				87608E612A7EF660004DB91B /* EditViewController.swift */,
+				87608E632A7EFB60004DB91B /* DataManager.swift */,
+				87608E592A7ECF51004DB91B /* DataStore.swift */,
+				87BC43302A80C708006DE9D5 /* Healper.swift */,
+				87608E5B2A7ECF8A004DB91B /* Car.swift */,
 				87608E492A7ECEA0004DB91B /* Main.storyboard */,
 				87608E4C2A7ECEA1004DB91B /* Assets.xcassets */,
 				87608E4E2A7ECEA1004DB91B /* LaunchScreen.storyboard */,
@@ -138,9 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87608E482A7ECEA0004DB91B /* ViewController.swift in Sources */,
 				87608E442A7ECEA0004DB91B /* AppDelegate.swift in Sources */,
+				87608E642A7EFB60004DB91B /* DataManager.swift in Sources */,
+				87608E662A7F1430004DB91B /* AddNewCarViewController.swift in Sources */,
+				877019402A7FB5B1001D5202 /* FilterTableViewController.swift in Sources */,
+				87608E5A2A7ECF51004DB91B /* DataStore.swift in Sources */,
+				87608E5C2A7ECF8A004DB91B /* Car.swift in Sources */,
+				87608E602A7EECBD004DB91B /* DetailViewController.swift in Sources */,
+				87BC43312A80C708006DE9D5 /* Healper.swift in Sources */,
+				87608E582A7ECF12004DB91B /* MainTableViewController.swift in Sources */,
 				87608E462A7ECEA0004DB91B /* SceneDelegate.swift in Sources */,
+				87608E622A7EF660004DB91B /* EditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +325,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +334,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlekseyBu.PizzaSushiWokTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,8 +356,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +365,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlekseyBu.PizzaSushiWokTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
